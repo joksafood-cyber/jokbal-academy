@@ -64,7 +64,7 @@ export const Hero: React.FC = () => {
             {/* Logo Label */}
             <div className="opacity-0 hero-fade flex flex-col items-center gap-4">
                 <img 
-                    src="https://postfiles.pstatic.net/MjAyNjAyMTBfMTgz/MDAxNzcwNjkxNjE2Mzk5.lhMPm4g9UV60zLADO_YAyO6gN2QaYgjSrwq7QA_VZDEg.wD_AdbEYhwqrLurOJ-f6dZamXWMzAoWEbcZ5k4WtHHYg.PNG/logo.png?type=w773" 
+                    src="/logo.png" 
                     alt="Jokbal Academy Logo" 
                     className="w-96 md:w-[32rem] h-auto object-contain drop-shadow-lg max-w-full"
                     onError={(e) => {
@@ -76,7 +76,7 @@ export const Hero: React.FC = () => {
             {/* Headline Replacement Image - Reduced size */}
             <div className="opacity-0 hero-fade w-full flex justify-center py-2 md:py-4">
                 <img 
-                    src="https://postfiles.pstatic.net/MjAyNjAyMTBfMjE4/MDAxNzcwNzMzMzkxMjA0.kFORcKBloah7ozSk9x8VeaGir1ieT-7UYM-nrTTIR3kg.eEnfDQhB6qe0MXlNS6YmOglgzZ9iA8TFFEJnWFZLvzEg.PNG/1.png?type=w773" 
+                    src="/main text" 
                     alt="족발, 그 이상의 가치" 
                     className="w-[70%] md:w-[50%] max-w-3xl h-auto object-contain drop-shadow-2xl"
                 />
