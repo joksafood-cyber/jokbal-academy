@@ -52,7 +52,7 @@ export const Intro: React.FC = () => {
         <div className="absolute inset-0 z-0 overflow-hidden">
             <img 
                 ref={bgRef}
-                src="/brand bg.png"
+                src="/main bg.png"
                 onError={(e) => {
                     const target = e.currentTarget;
                     // Fallback to Unsplash if local file is missing
