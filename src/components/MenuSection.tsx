@@ -6,25 +6,25 @@ const menuItems = [
       name: '정통 족발', 
       eng: 'Original Jokbal',
       desc: '30년 씨육수의 깊은 풍미가 스며든 족발사관학교의 대표 메뉴입니다.', 
-      img: 'https://postfiles.pstatic.net/MjAyNjAyMTBfMjEx/MDAxNzcwNzEwMzM2NTE0.k9ITjIJIUi4DWp3N1cIUwZlQ0RimQv3jwB5n_B5MVFog.pdkiZYO1uWEp0RkcOm4rFhg21YXPAxci89bWwlm6LU0g.PNG/%EB%A9%94%EB%89%B4-%EC%A0%95%ED%86%B5%EC%A1%B1%EB%B0%9C.png?type=w773' 
+      img: '/menu-4.png' 
     },
     { 
       name: '반반 족발', 
       eng: 'Half & Half',
       desc: '담백한 오리지널과 매콤한 불족발을 한번에 즐기는 실속 메뉴입니다.', 
-      img: 'https://postfiles.pstatic.net/MjAyNjAyMTBfMjY4/MDAxNzcwNzEwMzM2NTEz.YlmRV4VGdts-jkEc24CRPZN7lgSeEkvXwdKwX5CYQhEg.nKodAZ5LxGnFg-TLlCUtKfkk3DUDORX7DMxOk10Yewcg.PNG/%EB%A9%94%EB%89%B4-%EB%B0%98%EB%B0%98.png?type=w773' 
+      img: '/menu-1.png' 
     },
     { 
       name: '직화 불족발', 
       eng: 'Spicy Fire Jokbal',
       desc: '중독성 있는 매운맛과 은은한 불향의 조화가 일품인 메뉴입니다.', 
-      img: 'https://postfiles.pstatic.net/MjAyNjAyMTBfMjcx/MDAxNzcwNzEwMzM2NDY1.iYYVv-dW2AQI3uu75CkGMLtC4A_mXaDn7WE4nfhImwEg.fHqTg9wqIkDH5UpD-j92b1kugRaQRj_GNwC6toOM5HAg.PNG/%EB%A9%94%EB%89%B4-%EB%B6%88%EC%A1%B1.png?type=w773' 
+      img: '/menu-3.png' 
     },
     { 
       name: '보쌈 세트', 
       eng: 'Bossam Set',
       desc: '잡내 없이 부드럽게 삶아낸 수육과 매일 담그는 김치의 만남입니다.', 
-      img: 'https://postfiles.pstatic.net/MjAyNjAyMTBfNjcg/MDAxNzcwNzEwMzM2NTM5.f8kq4GRI9ToJFZSrTVpMNz-pWcmN7aEKbV9n7xjie7sg.Dm6VO3AbSOk8J16UDxD_3Bt4oJNGhhnZPOnfEbaSyL4g.PNG/%EB%A9%94%EB%89%B4-%EB%B3%B4%EC%8C%88.png?type=w773' 
+      img: '/menu-2.png' 
     },
 ];
 
