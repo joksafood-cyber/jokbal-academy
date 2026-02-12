@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>족발사관학교 | JOKBAL ACADEMY</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Noto+Serif+KR:wght@400;500;600;700;900&family=Syncopate:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'bg-stone': '#E3E1DC',
+              'dark-base': '#121212',
+              'accent-gold': '#C5A059',
+              'dark-brown': '#1a1510',
+              'card-bg': '#25201b',
+            },
+            fontFamily: {
+              display: ['"Noto Serif KR"', 'serif'],
+              eng: ['"Syncopate"', 'sans-serif'],
+              body: ['"Noto Sans KR"', 'sans-serif'],
+              serif: ['"Noto Serif KR"', 'serif'],
+            },
+            screens: {
+              'md': '768px',
+              'lg': '1024px',
+              'xl': '1280px',
+            }
+          }
+        }
+      }
+    </script>
+
+    <style>
+      /* Core resets */
+      html.lenis, html.lenis body {
+        height: auto;
+      }
+      .lenis.lenis-smooth {
+        scroll-behavior: auto !important;
+      }
+      .lenis.lenis-smooth [data-lenis-prevent] {
+        overscroll-behavior: contain;
+      }
+      .lenis.lenis-stopped {
+        overflow: hidden;
+      }
+      .lenis.lenis-scrolling iframe {
+        pointer-events: none;
+      }
+
+      body {
+        background-color: #E3E1DC;
+        color: #121212;
+        font-family: 'Noto Sans KR', sans-serif;
+        margin: 0;
+        overflow-x: hidden;
+        cursor: auto;
+        word-break: keep-all;
+      }
+
+      /* Utility classes for text reveal */
+      .word-wrap {
+        display: inline-block;
+        overflow: hidden;
+        vertical-align: top;
+        padding-bottom: 0.1em;
+      }
+      .word-inner {
+        display: inline-block;
+        transform: translateY(110%);
+      }
+
+      /* Noise Overlay SVG */
+      .noise-bg {
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='1'/%3E%3C/svg%3E");
+      }
+      
+      /* Button Glow */
+      .btn-glow {
+        box-shadow: 0 0 20px rgba(197, 160, 89, 0.1);
+      }
+      .btn-glow:hover {
+        box-shadow: 0 0 30px rgba(197, 160, 89, 0.3);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "@studio-freight/lenis": "https://esm.sh/@studio-freight/lenis@^1.0.42",
+    "gsap": "https://esm.sh/gsap@^3.14.2",
+    "gsap/": "https://esm.sh/gsap@^3.14.2/",
+    "lucide-react": "https://esm.sh/lucide-react@^0.563.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
