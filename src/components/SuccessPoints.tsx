@@ -6,7 +6,7 @@ export const SuccessPoints: React.FC = () => {
         {
             title: "소규모 매장 가능",
             desc: "10평대 소형 매장에서도\n일 매출 200만원 달성 신화",
-            img: "https://postfiles.pstatic.net/MjAyNjAyMTFfNiAg/MDAxNzcwNzc4OTIzNjk2.Oc3O94hySTSPg_uvqOYdmK3Ivg1dV4NbB15ey4Ac3ZIg.PosFbwHTkGLMqCvzviCggS8L7vi7c5Er0RKP4iNqN9Ug.PNG/ChatGPT_Image_2026%EB%85%84_2%EC%9B%94_11%EC%9D%BC_%EC%98%A4%ED%9B%84_12_01_23.png?type=w773"
+            img: "/store-2.png"
         },
         {
             title: "실전 중심 교육",
