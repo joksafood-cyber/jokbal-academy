@@ -8,7 +8,7 @@ const stories = [
     title: '부산 하단본점',
     engTitle: 'Busan Hadan Main',
     desc: '본점에서 검증된 맛과 운영 시스템을 기반으로\n가맹점의 안정적인 성장을 완성하는 가맹시스템',
-    img: 'https://postfiles.pstatic.net/MjAyNjAyMTBfOTAg/MDAxNzcwNzE2Nzk5OTQz.4fZORgmMyJW2qRSDhvDvlL-BcyHlJKJD45XfhcaNCR8g.jqz6zABYL0OL_wLG6DaNliLOGEEtIz0QzGAqAqinrfAg.PNG/%ED%95%98%EB%8B%A8%EB%A7%A4%EC%9E%A5_%EB%A7%91%EC%9D%80%EB%82%A0.png?type=w773',
+    img: '/inter view.png',
     fallbackImg: 'https://images.unsplash.com/photo-1559339352-11d035aa65de?q=80&w=1600&auto=format&fit=crop',
     alt: 'Busan Hadan Main Store'
   },
@@ -17,7 +17,7 @@ const stories = [
     title: '부산 장림점',
     engTitle: 'Busan Janglim',
     desc: '오픈 초기부터 지역 맛집 랭킹 1위 달성. 철저한 교육 시스템 덕분에 초보 창업자였음에도 안정적인 운영이 가능했습니다.',
-    img: 'https://postfiles.pstatic.net/MjAyNjAyMTBfMTIx/MDAxNzcwNzIxODU2MzQ2.FsFLzvgx6Pf6ryGqTsqucMIFIQK17v7y30hU-L0B4rIg.LSoyCzBJdFQRx6jwcnBABR-iTTd7Mi3uzxNDuHUbgCgg.PNG/%EC%9E%A5%EB%A6%BC%EB%A7%A4%EC%9E%A5.png?type=w773',
+    img: '/store-1.png',
     fallbackImg: 'https://images.unsplash.com/photo-1552566626-52f8b828add9?q=80&w=1600&auto=format&fit=crop',
     alt: 'Busan Janglim Store Exterior'
   },
@@ -26,7 +26,7 @@ const stories = [
     title: '부산 당감점',
     engTitle: 'Busan Danggam',
     desc: '주거 상권의 강자. 남녀노소 호불호 없는 맛으로 단골 고객 비율이 80% 이상입니다. 가족 외식의 명소로 자리잡았습니다.',
-    img: 'https://postfiles.pstatic.net/MjAyNjAyMTBfMTI1/MDAxNzcwNzIxODY2NDU0.jv47AnJON8mCVwL3nBBB99FOaEBJ1xA6n1pwAYGpgG4g.Add0evR9d_M9w3wgM3uYJNQ5_ZuisEvINLXLlQfdHFwg.PNG/%EB%8B%B9%EA%B0%90%EB%A7%A4%EC%9E%A5.png?type=w773',
+    img: '/store-4.png',
     fallbackImg: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1600&auto=format&fit=crop',
     alt: 'Busan Danggam Store'
   },
@@ -35,7 +35,7 @@ const stories = [
     title: '부산 토곡점',
     engTitle: 'Busan Togok',
     desc: '최적의 상권 분석을 통한 입점 전략 성공 사례. 오픈 직후부터 꾸준한 매출 상승곡선을 그리며 지역 대표 맛집으로 자리잡았습니다.',
-    img: 'https://postfiles.pstatic.net/MjAyNjAyMTBfOTgg/MDAxNzcwNzIxODYzNjI0.bfwdolnajuPHplpIdfDtPGUH_-aOBMdcEt2da_1po14g.3Cdox-xrv6yFyRLPIVk2DnyaW02w1KiE6AaaeUwaupog.PNG/%EC%97%B0%EC%82%B0%EB%A7%A4%EC%9E%A5.png?type=w773',
+    img: '/store-3.png',
     fallbackImg: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?q=80&w=1600&auto=format&fit=crop',
     alt: 'Busan Togok Store'
   },
@@ -44,7 +44,7 @@ const stories = [
     title: '부산 명지점',
     engTitle: 'Busan Myeongji',
     desc: '신도시 가족 상권의 중심. 깔끔한 인테리어와 아이들도 좋아하는 맛으로 지역 맘카페 입소문 1위를 기록하며 오픈 3개월 만에 월 매출 1억원을 돌파했습니다.',
-    img: 'https://postfiles.pstatic.net/MjAyNjAyMTBfMjU5/MDAxNzcwNzIxODc4Njkx.XCFyAez7BwtnGfRKI_2F5n40kIkPYuANaq3Viw_sLSYg.zVQxDgjIX6jkDQzsXOBOTkJT1Ohj4tCtm-r2h1IoPAwg.PNG/%EB%AA%85%EC%A7%80%EC%A0%90.png?type=w773',
+    img: '/store-5.png',
     fallbackImg: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1600&auto=format&fit=crop',
     alt: 'Busan Myeongji Store'
   }
