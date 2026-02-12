@@ -16,6 +16,7 @@ import { SuccessPoints } from './components/SuccessPoints';
 import { InquirySection } from './components/InquirySection';
 import { Footer } from './components/Footer';
 import { NoiseOverlay } from './components/NoiseOverlay';
+import { Home } from '../pages/Home';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -66,16 +67,8 @@ export default function App() {
         ref={wrapperRef}
         className={`relative z-10 bg-bg-stone mb-[100vh] shadow-[0_50px_100px_rgba(0,0,0,0.5)] transition-opacity duration-1000 ${showContent ? 'opacity-100' : 'opacity-0'}`}
       >
-         <Hero />
-         <Intro /> 
-         <MenuSection />
-         <CostSection />
-         <SuccessPoints />
-         <ReviewSection />
-         <BlogReviewSection />
-         <InteriorSection />
-         <CardStack />
-         <InquirySection />
+        <Home />
+
       </div>
 
       {/* Sticky Footer */}
