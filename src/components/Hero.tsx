@@ -76,7 +76,7 @@ export const Hero: React.FC = () => {
             {/* Headline Replacement Image - Reduced size */}
             <div className="opacity-0 hero-fade w-full flex justify-center py-2 md:py-4">
                 <img 
-                    src="/main text" 
+                    src="/main text.png" 
                     alt="족발, 그 이상의 가치" 
                     className="w-[70%] md:w-[50%] max-w-3xl h-auto object-contain drop-shadow-2xl"
                 />
