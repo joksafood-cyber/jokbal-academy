@@ -181,7 +181,7 @@ const processSteps = [
         step: 7, 
         title: "그랜드오픈", 
         desc: "오픈 이벤트 및\n초기 마케팅 지원",
-        img: "https://postfiles.pstatic.net/MjAyNjAyMTBfOTAg/MDAxNzcwNzE2Nzk5OTQz.4fZORgmMyJW2qRSDhvDvlL-BcyHlJKJD45XfhcaNCR8g.jqz6zABYL0OL_wLG6DaNliLOGEEtIz0QzGAqAqinrfAg.PNG/%ED%95%98%EB%8B%A8%EB%A7%A4%EC%9E%A5_%EB%A7%91%EC%9D%80%EB%82%A0.png?type=w773"
+        img: "/inter view.png"
     },
     { 
         step: 8, 
