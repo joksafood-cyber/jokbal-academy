@@ -38,7 +38,7 @@ export const Navbar: React.FC = () => {
             className="flex items-center gap-2 pointer-events-auto hover:opacity-80 transition-opacity"
         >
           <img 
-            src="https://postfiles.pstatic.net/MjAyNjAyMTBfMTgz/MDAxNzcwNjkxNjE2Mzk5.lhMPm4g9UV60zLADO_YAyO6gN2QaYgjSrwq7QA_VZDEg.wD_AdbEYhwqrLurOJ-f6dZamXWMzAoWEbcZ5k4WtHHYg.PNG/logo.png?type=w773" 
+            src="/logo.png" 
             alt="족발사관학교" 
             className="h-10 w-auto object-contain" 
           />
