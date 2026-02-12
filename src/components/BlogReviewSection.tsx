@@ -9,7 +9,7 @@ const mediaNews = [
         title: "장림동의 기적,\n족발사관학교를 만나다",
         desc: "동네 작은 가게에서 시작해 지역 매출 1위를 달성하기까지. 점주가 직접 밝히는 성공의 비밀.",
         author: "EDITOR. K",
-        image: "https://postfiles.pstatic.net/MjAyNjAyMTBfOTAg/MDAxNzcwNzE2Nzk5OTQz.4fZORgmMyJW2qRSDhvDvlL-BcyHlJKJD45XfhcaNCR8g.jqz6zABYL0OL_wLG6DaNliLOGEEtIz0QzGAqAqinrfAg.PNG/%ED%95%98%EB%8B%A8%EB%A7%A4%EC%9E%A5_%EB%A7%91%EC%9D%80%EB%82%A0.png?type=w773"
+        image: "/inter view.png"
     },
     {
         type: "EXCLUSIVE",
