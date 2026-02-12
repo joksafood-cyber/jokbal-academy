@@ -127,23 +127,7 @@ export const BlogReviewSection: React.FC = () => {
                                 ))}
                             </div>
                         </div>
-
-                        {/* Footer / Barcode */}
-                        <div className="mt-8 pt-8 border-t-[3px] border-black flex items-center justify-between">
-                            <div className="flex flex-col">
-                                <span className="font-bold text-base md:text-lg leading-none">9,800 KRW</span>
-                                <span className="text-[10px] text-gray-500 uppercase mt-1">S.Korea / Japan / USA</span>
-                            </div>
-                            <div className="flex items-center gap-2 opacity-80">
-                                <ScanBarcode className="w-10 h-10 md:w-12 md:h-12" strokeWidth={1} />
-                                <div className="flex flex-col text-[8px] font-mono leading-tight tracking-widest">
-                                    <span>ISSN 2025-0320</span>
-                                    <span>9 772025 032001</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
+                    </div>     
                 </div>
             </div>
         </section>
