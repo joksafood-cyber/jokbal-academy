@@ -6,7 +6,7 @@ const mediaNews = [
         type: "COVER STORY",
         source: "MONTHLY DINING",
         date: "MAR 2025",
-        title: "장림동의 기적,\n족발사관학교를\n만나다",
+        title: "하단동의 기적,\n족발사관학교를\n만나다",
         desc: "동네 작은 가게에서 시작해 지역 매출 1위를 달성하기까지.\n점주가 직접 밝히는 성공의 비밀.",
         author: "EDITOR. K",
         image: "/inter view.png"
