@@ -45,7 +45,7 @@ export const Hero: React.FC = () => {
         <div className="absolute inset-0 overflow-hidden">
             <img 
                 ref={imgRef}
-                src="https://postfiles.pstatic.net/MjAyNjAyMTBfMTA1/MDAxNzcwNjU1MDE3ODgz.NoRTkhpFdeDKeRdmLoOLU_pMg9FxwAjkuXaj08zh6iAg.bl6WKy8AJGkMbJJMV5g17-Q_SH0WTyT2L5kjzYFfU28g.PNG/ChatGPT_Image_2026%EB%85%84_2%EC%9B%94_10%EC%9D%BC_%EC%98%A4%EC%A0%84_01_36_47.png?type=w773"
+                src="/main bg.png"
                 onError={(e) => {
                     const target = e.currentTarget;
                     target.onerror = null; 
