@@ -9,7 +9,7 @@ const reviews = [
     date: "일주일전",
     text: "낮술먹기 좋은날~~\n항상 족발사관학교에서 족발을 먹어유 ㅎㅎ\n요청사항도 잘 들어주시고 맛은 말하기 입아파유\n너무너무 맛있어요 ㅎㅎ 번창하세용 ㅎㅎ",
     menu: "[매콤매콤]매운족발",
-    img: "https://postfiles.pstatic.net/MjAyNjAyMTBfNSAg/MDAxNzcwNzIzNjk3NDkw.-aJp9b_ZycsRuKLVthvJT6aieEGRvAIT8-AVlIaSDrog.A4wXLmQl5XSIsxL2SyEZ6dZs0c0a7Wi4CF4cXdeH84Mg.PNG/ChatGPT_Image_2026%EB%85%84_2%EC%9B%94_10%EC%9D%BC_%EC%98%A4%ED%9B%84_08_39_46.png?type=w773"
+    img: "/review-5.png"
   },
   {
     author: "limh",
@@ -18,7 +18,7 @@ const reviews = [
     date: "지난 달",
     text: "이세상족발맛이아닙니다 세상에서가장맛있고 가장쫄깃탱탱한 막국수가 가장감칠맛있는 족발을파는곳이라 자부합니다 개쌉맛있습니다 이족발안드셔보셨으면 말을마세요 ㄹㅇ때깔부터 다른족발집들 싹버릅니다 이족발집없어지면 저웁니다",
     menu: "[쫄깃쫄깃]구운족발",
-    img: "https://postfiles.pstatic.net/MjAyNjAyMTBfNiAg/MDAxNzcwNzIzNjk3NDgx.SZXc98VjpsR8XleQJrAzAvI6zwAAP9cwMrSRlCDr_Msg.y9zmmfeBT0WCReM71ODJ4jaAiXys2gjdX-BmtUtnDnAg.PNG/ChatGPT_Image_2026%EB%85%84_2%EC%9B%94_10%EC%9D%BC_%EC%98%A4%ED%9B%84_08_40_47.png?type=w773"
+    img: "/review-4.png"
   },
   {
     author: "싱싱어엉",
@@ -27,7 +27,7 @@ const reviews = [
     date: "지난 주",
     text: "매일 지나다니면서 언제 먹지 생각만하다가\n오늘 드디어 시켜먹었어요! 진짜 맛있네요\n양도 엄청 많고 앞으로 자주 시켜먹을게요",
     menu: "족발, 보쌈 SET",
-    img: "https://postfiles.pstatic.net/MjAyNjAyMTBfMTI1/MDAxNzcwNzIzNzIyNzM3.WXRGejTtyD0NkHnybQzRB_O7hGcx0iGpcLBuYGB-0s4g.MbxpCWvez3JVte4xgwmMemKGf4owkOa8DXldlU-fliIg.PNG/ChatGPT_Image_2026%EB%85%84_2%EC%9B%94_10%EC%9D%BC_%EC%98%A4%ED%9B%84_08_41_57.png?type=w773"
+    img: "/review-6.png"
   },
   {
     author: "효래83",
@@ -36,7 +36,7 @@ const reviews = [
     date: "이번 주",
     text: "이 집은 매번 주문할때마다 만족도가 최상입니다.\n이 가격에 양에 맛에 전부 별 5개이상입니다\n특히 어머니께서 막국수가 당감동 어디밀면집들보다 맛있다고 여름에 단독으로 팔기만하면 계속 사먹고싶다고 하실만큼 맛이 좋네요 최곱니다!",
     menu: "[쫄깃쫄깃]정통족발",
-    img: "https://postfiles.pstatic.net/MjAyNjAyMTBfMTE4/MDAxNzcwNzI0NDIzNjk1.cxP5kw-ygOP8-OoyzDuc9K7cSW2QWBfOg-9LFZkYzlwg.8I6jTqayzjrUrou327MSFTiOO9Wpn2B5BfL2bopNHrYg.PNG/ChatGPT_Image_2026%EB%85%84_2%EC%9B%94_10%EC%9D%BC_%EC%98%A4%ED%9B%84_08_53_27.png?type=w773"
+    img: "/review-4.png"
   },
   {
     author: "이건안이지예",
@@ -45,7 +45,7 @@ const reviews = [
     date: "지난 주",
     text: "양도 많고 진짜 너무 맛있어요...! 매운족발 많이 매울까봐 걱정했는데 정말 딱 버틸 수 있을 만큼만 매워서 너무 좋았어요!\n밑반찬도 넉넉하게 주셔서 야식으로 너무 맛있게 먹었습니다 감사합니다~",
     menu: "반반족발",
-    img: "https://postfiles.pstatic.net/MjAyNjAyMTBfMjYw/MDAxNzcwNzI0NzUxMjEz.OWJmQuOu8ZiBR_vXeMZpizOs1p6t9db_IwOJz2H4N-cg.tTBObU9jQpcwYQVtX8HUh-BOSThVw_r1bQ78WaOVzuUg.PNG/ChatGPT_Image_2026%EB%85%84_2%EC%9B%94_10%EC%9D%BC_%EC%98%A4%ED%9B%84_08_58_56.png?type=w773"
+    img: "/review-2.png"
   },
   {
     author: "sy83",
@@ -54,7 +54,7 @@ const reviews = [
     date: "지난 달",
     text: "인생족발이 될거같아요 !! 넘 맛있어요~\n지난번에 포장해서 먹고 넘 맛있어서 또 주문했어요♡\n양도 넉넉하고 촉촉하니 쫄깃하고 부드럽고~~~~ ^^\n오늘도 맛있게 잘 먹을께요^^",
     menu: "[쫄깃쫄깃]반반(매운)족발",
-    img: "https://postfiles.pstatic.net/MjAyNjAyMTBfMyAg/MDAxNzcwNzI0NzUxMjI0.n0bVMjb0C4C2VI5lFxmUWS1WMJ5qNaPpZDz_HPVBh5og.Go8so2gdahy6906l5YIZr4fOID_-do4oQsMyFX4HeKMg.PNG/ChatGPT_Image_2026%EB%85%84_2%EC%9B%94_10%EC%9D%BC_%EC%98%A4%ED%9B%84_08_57_33.png?type=w773"
+    img: "/review-3.png"
   }
 ];
 
