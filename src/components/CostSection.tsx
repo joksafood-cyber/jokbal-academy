@@ -1,64 +1,64 @@
 import React from 'react';
-import { CheckCircle2, Info, ChevronRight } from 'lucide-react';
+import { CheckCircle2, Info, ChevronRight, TrendingDown, Gift, Crown } from 'lucide-react';
 
 const costData = [
     { 
-        size: '10평', 
-        items: [
-            { name: '가맹비', price: '1,000만원' },
-            { name: '교육비', price: '500만원' },
-            { name: '계약이행보증금', price: '300만원' },
-            { name: '인테리어(평당)', price: '200만원' },
-            { name: '익스테리어(평당)', price: '150만원' },
-            { name: '간판/디스플레이', price: '700만원' },
-            { name: '주방설비', price: '850만원' },
-            { name: '주방/홀 집기', price: '850만원' },
-            { name: '광고홍보비', price: '500만원', note: '(부가세별도)' }
-        ], 
-        price: '상담문의 1600-8769' 
-    },
-    { 
         size: '20평', 
         items: [
-            { name: '가맹비', price: '1,000만원' },
-            { name: '교육비', price: '500만원' },
+            { name: '가맹비', price: '본사지원' },
+            { name: '교육비', price: '본사지원' },
             { name: '계약이행보증금', price: '300만원' },
             { name: '인테리어(평당)', price: '200만원' },
             { name: '익스테리어(평당)', price: '150만원' },
-            { name: '간판/디스플레이', price: '750만원' },
-            { name: '주방설비', price: '950만원' },
-            { name: '주방/홀 집기', price: '1,050만원' },
-            { name: '광고홍보비', price: '550만원', note: '(부가세별도)' }
+            { name: '간판/디스플레이', price: '본사지원' },
+            { name: '주방설비', price: '850만원' },
+            { name: '주방/홀 집기', price: '950만원' },
+            { name: '광고홍보비', price: '500만원', note: '(부가세별도)' }
         ], 
         price: '상담문의 1600-8769' 
     },
     { 
         size: '30평', 
         items: [
-            { name: '가맹비', price: '1,000만원' },
-            { name: '교육비', price: '500만원' },
+            { name: '가맹비', price: '본사지원' },
+            { name: '교육비', price: '본사지원' },
             { name: '계약이행보증금', price: '300만원' },
             { name: '인테리어(평당)', price: '200만원' },
             { name: '익스테리어(평당)', price: '150만원' },
-            { name: '간판/디스플레이', price: '800만원' },
-            { name: '주방설비', price: '1,050만원' },
-            { name: '주방/홀 집기', price: '1,150만원' },
-            { name: '광고홍보비', price: '600만원', note: '(부가세별도)' }
+            { name: '간판/디스플레이', price: '본사지원' },
+            { name: '주방설비', price: '950만원' },
+            { name: '주방/홀 집기', price: '1,050만원' },
+            { name: '광고홍보비', price: '500만원', note: '(부가세별도)' }
         ], 
         price: '상담문의 1600-8769' 
     },
     { 
         size: '40평', 
         items: [
-            { name: '가맹비', price: '1,000만원' },
-            { name: '교육비', price: '500만원' },
+            { name: '가맹비', price: '본사지원' },
+            { name: '교육비', price: '본사지원' },
             { name: '계약이행보증금', price: '300만원' },
             { name: '인테리어(평당)', price: '200만원' },
             { name: '익스테리어(평당)', price: '150만원' },
-            { name: '간판/디스플레이', price: '850만원' },
+            { name: '간판/디스플레이', price: '본사지원' },
+            { name: '주방설비', price: '1,050만원' },
+            { name: '주방/홀 집기', price: '1,150만원' },
+            { name: '광고홍보비', price: '500만원', note: '(부가세별도)' }
+        ], 
+        price: '상담문의 1600-8769' 
+    },
+    { 
+        size: '50평', 
+        items: [
+            { name: '가맹비', price: '본사지원' },
+            { name: '교육비', price: '본사지원' },
+            { name: '계약이행보증금', price: '300만원' },
+            { name: '인테리어(평당)', price: '200만원' },
+            { name: '익스테리어(평당)', price: '150만원' },
+            { name: '간판/디스플레이', price: '본사지원' },
             { name: '주방설비', price: '1,150만원' },
             { name: '주방/홀 집기', price: '1,250만원' },
-            { name: '광고홍보비', price: '650만원', note: '(부가세별도)' }
+            { name: '광고홍보비', price: '500만원', note: '(부가세별도)' }
         ], 
         price: '상담문의 1600-8769' 
     },
@@ -66,22 +66,22 @@ const costData = [
 
 const revenueData = [
     {
-        size: '10평',
+        size: '20평',
         items: [
-            { label: '테이블수', value: '5개' },
+            { label: '테이블수', value: '6개' },
             { label: '평균단가/회전율', value: '44,000원 / 2회' },
-            { label: '예상 일매출', value: '1,550,000' },
-            { label: '예상 월매출', value: '46,500,000', isTotal: true },
-            { label: '재료비(38%)', value: '17,670,000' },
-            { label: '인건비(15%)', value: '6,975,000' },
-            { label: '임대료/관리비(5.5%)', value: '2,557,500' },
-            { label: '포장배달운영비(13%)', value: '4,017,000' },
-            { label: '제세공과금(4.5%)', value: '2,092,500' },
+            { label: '예상 일매출', value: '1,600,000' },
+            { label: '예상 월매출', value: '48,000,000', isTotal: true },
+            { label: '재료비(38%)', value: '18,240,000' },
+            { label: '인건비(15%)', value: '7,200,000' },
+            { label: '임대료/관리비(5.5%)', value: '2,640,000' },
+            { label: '포장배달운영비(13%)', value: '3,744,000' },
+            { label: '제세공과금(4.5%)', value: '2,160,000' },
         ],
-        netProfit: '13,188,000'
+        netProfit: '14,016,000'
     },
     {
-        size: '20평',
+        size: '30평',
         items: [
             { label: '테이블수', value: '10개' },
             { label: '평균단가/회전율', value: '44,000원 / 2회' },
@@ -96,7 +96,7 @@ const revenueData = [
         netProfit: '22,776,000'
     },
     {
-        size: '30평',
+        size: '40평',
         items: [
             { label: '테이블수', value: '15개' },
             { label: '평균단가/회전율', value: '44,000원 / 2회' },
@@ -111,7 +111,7 @@ const revenueData = [
         netProfit: '32,364,000'
     },
     {
-        size: '40평',
+        size: '50평',
         items: [
             { label: '테이블수', value: '20개' },
             { label: '평균단가/회전율', value: '44,000원 / 2회' },
@@ -214,19 +214,47 @@ export const CostSection: React.FC = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
                         {costData.map((plan, idx) => (
                             <div key={idx} className="bg-white p-6 md:p-8 border border-gray-200 shadow-lg flex flex-col items-center text-center rounded-lg md:rounded-none">
-                                <div className="w-10 h-10 md:w-12 md:h-12 bg-accent-gold/10 rounded-full flex items-center justify-center mb-4 md:mb-6">
-                                    <span className="font-bold text-accent-gold text-sm md:text-base">{plan.size}</span>
+                                
+                                {/* 3D Gold Frame Header - Reduced Size */}
+                                <div className="mb-6 w-full max-w-[180px] mx-auto group">
+                                    {/* Frame Outer Edge */}
+                                    <div className="relative bg-gradient-to-b from-[#E6C075] to-[#8B7355] p-[2px] rounded-xl shadow-[0_4px_6px_rgba(0,0,0,0.1),0_10px_20px_rgba(0,0,0,0.05)] transform transition-all duration-300 group-hover:-translate-y-1 group-hover:shadow-[0_8px_15px_rgba(197,160,89,0.3)]">
+                                        {/* Frame Inner Bevel */}
+                                        <div className="bg-gradient-to-b from-white to-[#F0EFEA] p-[3px] rounded-[10px]">
+                                            {/* Content Area */}
+                                            <div className="bg-white border border-[#C5A059]/10 rounded-[7px] py-4 px-3 flex flex-col items-center justify-center relative overflow-hidden shadow-[inset_0_2px_4px_rgba(0,0,0,0.02)]">
+                                                
+                                                {/* Shine Animation element */}
+                                                <div className="absolute inset-0 bg-gradient-to-tr from-transparent via-white/50 to-transparent translate-x-[-150%] group-hover:translate-x-[150%] transition-transform duration-700 ease-in-out skew-x-12 z-20 pointer-events-none"></div>
+
+                                                <h3 className="font-display font-extrabold text-2xl text-[#1a1510] tracking-wider flex items-baseline gap-1 relative z-10">
+                                                    {plan.size.replace('평', '')}
+                                                    <span className="text-sm font-serif text-[#C5A059] font-bold">평형</span>
+                                                </h3>
+                                                
+                                                <div className="w-6 h-[2px] bg-[#C5A059] my-2 opacity-50"></div>
+
+                                                <span className="text-[9px] font-bold tracking-[0.2em] uppercase text-gray-500 bg-[#F5F5F0] px-2 py-0.5 rounded-sm border border-gray-200">
+                                                    STANDARD
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <h3 className="text-xl md:text-2xl font-bold mb-6 md:mb-8 text-gray-900">{plan.size} 기준</h3>
-                                <ul className="space-y-3 md:space-y-4 mb-6 md:mb-8 w-full">
+
+                                <ul className="space-y-4 md:space-y-5 mb-6 w-full">
                                     {plan.items.map((item, i) => (
-                                        <li key={i} className="flex items-center justify-between text-gray-600 text-xs md:text-sm border-b border-dashed border-gray-100 pb-2">
-                                            <span>{item.name}</span>
+                                        <li key={i} className="flex items-center justify-between text-sm md:text-base border-b border-dashed border-gray-100 pb-2 md:pb-3">
+                                            <span className="font-bold text-gray-900 shrink-0">{item.name}</span>
                                             {item.price ? (
                                                 <div className="text-right">
-                                                    <span className="font-bold text-gray-900">{item.price}</span>
+                                                    {item.price === '본사지원' ? (
+                                                        <span className="font-extrabold text-[#C5A059] text-base md:text-lg tracking-tight">{item.price}</span>
+                                                    ) : (
+                                                        <span className="font-bold text-gray-900">{item.price}</span>
+                                                    )}
                                                     {/* @ts-ignore */}
-                                                    {item.note && <p className="text-[10px] text-gray-400 leading-none mt-0.5 font-light">{item.note}</p>}
+                                                    {item.note && <p className="text-xs text-gray-500 leading-none mt-1 font-medium">{item.note}</p>}
                                                 </div>
                                             ) : (
                                                 <CheckCircle2 className="w-4 h-4 text-accent-gold" />
@@ -234,6 +262,32 @@ export const CostSection: React.FC = () => {
                                         </li>
                                     ))}
                                 </ul>
+
+                                {/* Promotional Banner */}
+                                <div className="w-full mb-6 md:mb-8 relative group">
+                                    <div className="absolute inset-0 bg-gradient-to-r from-[#C5A059] to-[#E6C075] rounded-lg opacity-10 group-hover:opacity-20 transition-opacity"></div>
+                                    <div className="absolute inset-0 border border-[#C5A059] rounded-lg opacity-50"></div>
+                                    
+                                    <div className="relative p-4 text-center">
+                                        <div className="flex items-center justify-center gap-1.5 mb-2">
+                                            <span className="bg-[#1a1510] text-[#C5A059] text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider flex items-center gap-1">
+                                                <Gift className="w-3 h-3" /> 특별 혜택
+                                            </span>
+                                        </div>
+                                        
+                                        <div className="flex items-center justify-center gap-1 text-gray-600 font-bold text-xs mb-1">
+                                            <span>초기 비용 부담</span>
+                                            <span className="text-red-500 font-extrabold flex items-center bg-red-50 px-1.5 py-0.5 rounded text-[10px]">
+                                                DOWN <TrendingDown className="w-3 h-3 ml-0.5" />
+                                            </span>
+                                        </div>
+                                        
+                                        <div className="text-[#1a1510] font-bold text-base md:text-lg leading-tight">
+                                            본사 <span className="text-[#C5A059] font-extrabold text-lg md:text-xl drop-shadow-sm border-b-2 border-[#C5A059]/30">3,000만원</span> 지원
+                                        </div>
+                                    </div>
+                                </div>
+
                                 <div className="mt-auto pt-4 md:pt-6 border-t border-gray-100 w-full">
                                     <p className="text-[10px] md:text-xs text-gray-400 uppercase tracking-wider mb-1">Estimated Cost</p>
                                     <p className="text-lg md:text-xl font-bold text-gray-900 break-keep">{plan.price}</p>
@@ -378,7 +432,7 @@ export const CostSection: React.FC = () => {
                                             <div className="w-6 md:w-8 h-px bg-gray-200 group-hover:bg-[#C5A059] transition-colors"></div>
                                         </div>
                                         
-                                        <p className="text-gray-500 text-xs md:text-sm leading-relaxed whitespace-pre-line break-keep font-medium">
+                                        <p className="text-gray-600 text-xs md:text-sm leading-relaxed whitespace-pre-line break-keep font-medium">
                                             {item.desc}
                                         </p>
                                         
