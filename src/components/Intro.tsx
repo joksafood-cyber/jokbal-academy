@@ -52,7 +52,7 @@ export const Intro: React.FC = () => {
         <div className="absolute inset-0 z-0 overflow-hidden">
             <img 
                 ref={bgRef}
-                src="/main bg.png"
+                src="/brand bg.png"
                 onError={(e) => {
                     const target = e.currentTarget;
                     // Fallback to Unsplash if local file is missing
@@ -79,7 +79,7 @@ export const Intro: React.FC = () => {
                 {/* Headline */}
                 <div className="intro-text w-full">
                     <h2 className="font-serif text-3xl md:text-5xl lg:text-6xl font-bold text-[#E6C075] tracking-tight leading-snug md:leading-tight drop-shadow-2xl mb-4 md:mb-6 break-keep">
-                        족발창업의<br className="md:hidden" /> 정석을 배운다
+                        족발창업의<br className="md:hidden" /> 정석을 배운다.
                     </h2>
                     <div className="w-16 md:w-24 h-[1px] bg-gradient-to-r from-transparent via-[#C5A059] to-transparent mx-auto"></div>
                 </div>
