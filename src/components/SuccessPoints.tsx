@@ -5,7 +5,7 @@ export const SuccessPoints: React.FC = () => {
     const points = [
         {
             title: "소규모 매장 가능",
-            desc: "10평대 소형 매장에서도\n일 매출 200만원 달성 신화",
+            desc: "20평대 소형 매장에서도\n일 매출 200만원 달성 신화",
             img: "/store-2.png"
         },
         {
@@ -60,28 +60,37 @@ export const SuccessPoints: React.FC = () => {
 
                 <div className="flex flex-wrap justify-center gap-4 md:gap-6">
                     {points.map((point, idx) => (
-                        <div key={idx} className="w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] group relative bg-[#221c16] rounded-xl overflow-hidden border border-[#C5A059]/20 transition-all duration-500 hover:border-[#C5A059] hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(197,160,89,0.2)] h-64 md:h-80 flex flex-col justify-end">
+                        <div key={idx} className="w-full md:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)] group relative bg-[#221c16] rounded-xl overflow-hidden border border-[#C5A059]/30 transition-all duration-500 hover:border-[#C5A059] hover:-translate-y-2 hover:shadow-[0_10px_30px_rgba(197,160,89,0.2)] h-72 md:h-80 flex flex-col justify-end">
                             
                             {/* Background Image */}
                             <div className="absolute inset-0 z-0">
                                 <img 
                                     src={point.img} 
                                     alt={point.title} 
-                                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-60 group-hover:opacity-40"
+                                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-50 md:opacity-60 group-hover:opacity-40"
                                 />
                                 {/* Dark Gradient Overlay for Readability */}
-                                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/70 to-transparent"></div>
+                                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/80 to-black/20 md:to-transparent"></div>
+                            </div>
+
+                            {/* Mobile Numbering - Adds Structure */}
+                            <div className="absolute top-4 left-4 md:hidden">
+                                <span className="font-display text-4xl font-bold text-[#C5A059]/20 italic">0{idx + 1}</span>
                             </div>
 
                             {/* Content */}
-                            <div className="relative z-10 p-6 md:p-8 text-center flex flex-col items-center">
+                            <div className="relative z-10 p-6 md:p-8 text-left md:text-center flex flex-col items-start md:items-center">
                                 {/* Icon */}
-                                <div className="w-10 h-10 rounded-full bg-[#C5A059] flex items-center justify-center mb-4 shadow-lg group-hover:scale-110 transition-transform duration-300">
-                                    <Check className="w-5 h-5 text-[#1a1510]" strokeWidth={3} />
+                                <div className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-[#C5A059] flex items-center justify-center mb-3 md:mb-4 shadow-lg group-hover:scale-110 transition-transform duration-300 shrink-0">
+                                    <Check className="w-4 h-4 md:w-5 md:h-5 text-[#1a1510]" strokeWidth={3} />
                                 </div>
 
                                 {/* Text */}
                                 <h3 className="text-white font-bold text-xl md:text-2xl mb-2 tracking-tight group-hover:text-[#C5A059] transition-colors duration-300">{point.title}</h3>
+                                
+                                {/* Mobile Divider */}
+                                <div className="w-10 h-[2px] bg-[#C5A059] mb-3 md:hidden"></div>
+
                                 <p className="text-gray-300 text-sm font-light whitespace-pre-line leading-relaxed opacity-90">{point.desc}</p>
                             </div>
                             
