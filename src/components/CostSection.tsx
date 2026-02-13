@@ -215,8 +215,8 @@ export const CostSection: React.FC = () => {
                         {costData.map((plan, idx) => (
                             <div key={idx} className="bg-white p-6 md:p-8 border border-gray-200 shadow-lg flex flex-col items-center text-center rounded-lg md:rounded-none">
                                 
-                                {/* 3D Gold Frame Header - Reduced Size */}
-                                <div className="mb-6 w-full max-w-[180px] mx-auto group">
+                                {/* 3D Gold Frame Header - Wider on mobile */}
+                                <div className="mb-6 w-full max-w-[280px] md:max-w-[180px] mx-auto group">
                                     {/* Frame Outer Edge */}
                                     <div className="relative bg-gradient-to-b from-[#E6C075] to-[#8B7355] p-[2px] rounded-xl shadow-[0_4px_6px_rgba(0,0,0,0.1),0_10px_20px_rgba(0,0,0,0.05)] transform transition-all duration-300 group-hover:-translate-y-1 group-hover:shadow-[0_8px_15px_rgba(197,160,89,0.3)]">
                                         {/* Frame Inner Bevel */}
@@ -283,7 +283,7 @@ export const CostSection: React.FC = () => {
                                         </div>
                                         
                                         <div className="text-[#1a1510] font-bold text-base md:text-lg leading-tight">
-                                            본사 <span className="text-[#C5A059] font-extrabold text-lg md:text-xl drop-shadow-sm border-b-2 border-[#C5A059]/30">3,000만원</span> 지원
+                                            본사 <span className="text-[#C5A059] font-extrabold text-lg md:text-xl drop-shadow-sm border-b-2 border-[#C5A059]/30">3,000만원상당</span> 지원
                                         </div>
                                     </div>
                                 </div>
