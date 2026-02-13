@@ -18,7 +18,7 @@ const reviews = [
     date: "지난 달",
     text: "이세상족발맛이아닙니다 세상에서가장맛있고 가장쫄깃탱탱한 막국수가 가장감칠맛있는 족발을파는곳이라 자부합니다 개쌉맛있습니다 이족발안드셔보셨으면 말을마세요 ㄹㅇ때깔부터 다른족발집들 싹버릅니다 이족발집없어지면 저웁니다",
     menu: "[쫄깃쫄깃]구운족발",
-    img: "/review-4.png"
+    img: "/review-1.png"
   },
   {
     author: "싱싱어엉",
@@ -80,7 +80,7 @@ export const ReviewSection: React.FC = () => {
                 */}
                 <div className="flex overflow-x-auto snap-x snap-mandatory gap-4 pb-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-6 md:pb-0 -mx-4 px-4 md:mx-0 md:px-0 scrollbar-hide">
                     {reviews.map((review, idx) => (
-                        <div key={idx} className="min-w-[85vw] md:min-w-0 snap-center bg-white p-6 md:p-8 shadow-[0_5px_20px_rgba(0,0,0,0.03)] rounded-2xl flex flex-col items-start text-left border border-[#C5A059]/10 hover:border-[#C5A059]/30 hover:shadow-[0_10px_30px_rgba(197,160,89,0.1)] transition-all duration-300 relative group">
+                        <div key={idx} className="min-w-[85vw] md:min-w-0 snap-center bg-white p-6 md:p-8 shadow-[0_10px_30px_rgba(0,0,0,0.05)] md:shadow-[0_5px_20px_rgba(0,0,0,0.03)] rounded-lg md:rounded-2xl flex flex-col items-start text-left border-t-4 border-t-[#C5A059] md:border-t-0 md:border md:border-[#C5A059]/10 hover:border-[#C5A059]/30 hover:shadow-[0_10px_30px_rgba(197,160,89,0.1)] transition-all duration-300 relative group">
                             
                             {/* Quote Icon Background */}
                             <Quote className="absolute top-6 right-6 w-8 h-8 text-[#C5A059]/10 fill-[#C5A059]/10 group-hover:scale-110 transition-transform" />
@@ -97,20 +97,20 @@ export const ReviewSection: React.FC = () => {
                             </div>
                             
                             {/* Stars & Stats */}
-                            <div className="flex items-center gap-2 mb-4">
+                            <div className="flex items-center gap-2 mb-4 bg-gray-50 px-3 py-1.5 rounded-md w-full md:w-auto">
                                 <div className="flex gap-0.5 text-[#FFB300]">
                                     {[...Array(5)].map((_, i) => <Star key={i} className="w-3.5 h-3.5 fill-current" />)}
                                 </div>
-                                <span className="text-[10px] text-gray-400 font-light border-l border-gray-200 pl-2 ml-1">{review.stats}</span>
+                                <span className="text-[10px] text-gray-500 font-semibold border-l border-gray-300 pl-2 ml-1">{review.stats}</span>
                             </div>
 
                             {/* Content */}
-                            <p className="text-gray-600 text-[13px] md:text-sm leading-relaxed mb-6 whitespace-pre-wrap break-keep font-medium">
+                            <p className="text-gray-700 text-[13px] md:text-sm leading-relaxed mb-6 whitespace-pre-wrap break-keep font-medium">
                                 {review.text}
                             </p>
 
                             {/* Review Image */}
-                            <div className="w-full aspect-[4/3] overflow-hidden rounded-xl mb-5 bg-gray-100 relative">
+                            <div className="w-full aspect-[4/3] overflow-hidden rounded-lg md:rounded-xl mb-5 bg-gray-100 relative shadow-inner">
                                 <img 
                                     src={review.img} 
                                     alt="Review Food" 
