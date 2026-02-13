@@ -60,11 +60,11 @@ export const Intro: React.FC = () => {
                     target.src = "https://images.unsplash.com/photo-1595295333158-4742f28fbd85?q=80&w=2400&auto=format&fit=crop";
                 }}
                 alt="Brand Background" 
-                className="w-full h-full object-cover object-center md:object-bottom opacity-50 md:opacity-60" 
+                className="w-full h-full object-cover object-[center_30%] md:object-bottom opacity-50 md:opacity-60" 
             />
             
             {/* Mobile specific dark overlay for better text contrast */}
-            <div className="absolute inset-0 bg-gradient-to-b from-[#1a1510]/80 via-[#1a1510]/70 to-[#1a1510]/80 md:hidden"></div>
+            <div className="absolute inset-0 bg-gradient-to-b from-[#1a1510]/90 via-[#1a1510]/80 to-[#1a1510]/90 md:hidden"></div>
             
             {/* Desktop gradients */}
             <div className="hidden md:block absolute inset-x-0 top-0 h-1/3 bg-gradient-to-b from-[#1a1510] to-transparent opacity-90"></div>
@@ -73,7 +73,7 @@ export const Intro: React.FC = () => {
         </div>
 
         {/* Main Content Container */}
-        <div className="relative z-10 max-w-4xl mx-auto px-4 md:px-8 py-10 md:py-20 w-full">
+        <div className="relative z-10 max-w-4xl mx-auto px-0 md:px-8 py-10 md:py-20 w-full">
             
             <div ref={textRef} className="flex flex-col items-center text-center space-y-8 md:space-y-12">
                 {/* Headline */}
@@ -84,13 +84,13 @@ export const Intro: React.FC = () => {
                     <div className="w-16 md:w-24 h-[1px] bg-gradient-to-r from-transparent via-[#C5A059] to-transparent mx-auto"></div>
                 </div>
 
-                {/* Body Text */}
-                <div className="space-y-8 md:space-y-10 text-[#E3E1DC] font-serif leading-relaxed md:leading-loose text-base md:text-[1.15rem] break-keep font-light tracking-wide shadow-black drop-shadow-lg w-full">
+                {/* Body Text - Mobile Container for Reliability */}
+                <div className="space-y-8 md:space-y-10 text-[#E3E1DC] font-serif leading-relaxed md:leading-loose text-base md:text-[1.15rem] break-keep font-light tracking-wide shadow-black drop-shadow-lg w-full bg-black/20 md:bg-transparent backdrop-blur-sm md:backdrop-blur-none border border-[#C5A059]/10 md:border-none p-6 md:p-0 rounded-sm">
                     <p className="intro-text">
                         족발사관학교는<br className="md:hidden"/> 단순한 프랜차이즈가 아닙니다.<br/>
                         이곳은 매일 반복되는 외식업,<br className="md:hidden" />
                         음식점 장사라는 전쟁터에서 살아남기 위해<br className="md:hidden" />
-                        최고만을 양성하는 <span className="font-bold text-[#E6C075] whitespace-nowrap">"사관학교"</span>입니다.
+                        최고만을 양성하는 <span className="font-bold text-[#E6C075] whitespace-nowrap border-b border-[#C5A059]/50 pb-0.5">"사관학교"</span>입니다.
                     </p>
 
                     <p className="intro-text">
@@ -107,8 +107,8 @@ export const Intro: React.FC = () => {
                         차별화된 전략을 가르쳐드립니다.
                     </p>
 
-                    <div className="intro-text py-4 my-2 border-y border-[#C5A059]/20 md:border-none md:py-0 md:my-0">
-                        <p className="text-[#E6C075]/90 font-medium">
+                    <div className="intro-text py-4 my-2 border-y border-[#C5A059]/30 md:border-none md:py-0 md:my-0 bg-[#C5A059]/5 md:bg-transparent -mx-6 md:mx-0 px-6 md:px-0">
+                        <p className="text-[#E6C075] font-medium font-sans md:font-serif text-sm md:text-base">
                             족발 하나만큼은 정통으로 마스터한<br className="md:hidden"/> 전문가의 손맛,<br className="hidden md:block"/>
                             시간과 정성으로 다진<br className="md:hidden"/> 엄선된 족발의 품격을<br className="hidden md:block"/>
                             제대로 배우고 싶은 분들만을 찾습니다.
