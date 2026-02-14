@@ -43,7 +43,7 @@ const stories = [
     id: '05',
     title: '부산 명지점',
     engTitle: 'Busan Myeongji',
-    desc: '신도시 가족 상권의 중심. 깔끔한 인테리어와 아이들도 좋아하는 맛으로 지역 맘카페 입소문 1위를 기록하며 오픈 3개월 만에 월 매출 1억원을 돌파했습니다.',
+    desc: '신도시 가족 상권의 중심. 깔끔한 인테리어와 아이들도 좋아하는 맛으로 지역 맘카페 입소문 1위를 기록하며 오픈 3개월 만에 대표 맛집으로 자리매김했습니다.',
     img: '/store-5.png',
     fallbackImg: 'https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1600&auto=format&fit=crop',
     alt: 'Busan Myeongji Store'
