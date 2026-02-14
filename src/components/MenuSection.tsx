@@ -21,7 +21,7 @@ const menuItems = [
       img: '/menu-8.png' 
     },
     { 
-      name: '보쌈 세트', 
+      name: '냉채 족발', 
       eng: 'Bossam Set',
       desc: '잡내 없이 부드럽게 삶아낸 수육과 매일 담그는 김치의 만남입니다.', 
       img: '/menu-9.png' 
