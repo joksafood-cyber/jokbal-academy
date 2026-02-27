@@ -115,7 +115,7 @@ export const Hero: React.FC = () => {
                     
                     <div className="flex items-center gap-2 md:gap-3 text-[#E6C075] drop-shadow-md whitespace-nowrap">
                         <span className="font-serif font-bold text-base md:text-2xl tracking-wide pt-1">창업문의</span>
-                        <span className="font-serif font-bold text-xl md:text-4xl tracking-widest leading-none">1600-8769</span>
+                        <span className="font-serif font-bold text-xl md:text-4xl tracking-widest leading-none">1551-9396</span>
                     </div>
                 </a>
             </div>
