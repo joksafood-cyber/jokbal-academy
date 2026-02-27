@@ -29,7 +29,7 @@ export const Footer: React.FC = () => {
         <div ref={contentRef} className="relative z-10 text-center px-4 flex flex-col items-center">
             <div className="text-xs font-bold uppercase tracking-[0.3em] mb-6 text-accent-gold">Contact Us</div>
             <a href="tel:1600-8769" className="font-display font-bold text-[10vw] md:text-[8vw] leading-none hover:text-accent-gold transition-colors duration-500">
-                1600-8769
+                1551-9396
             </a>
             <p className="mt-8 text-gray-400 text-lg font-light">평일 11:00 - 21:00 (주말/공휴일 휴무)</p>
             
