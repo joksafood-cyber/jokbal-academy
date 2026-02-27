@@ -70,7 +70,7 @@ export const InquirySection: React.FC = () => {
                                 </div>
                                 <div>
                                     <p className="text-[10px] md:text-xs text-[#C5A059] font-bold uppercase tracking-wider mb-1">Franchise Inquiry</p>
-                                    <a href="tel:1600-8769" className="text-xl md:text-2xl font-display font-bold text-white hover:text-[#C5A059] transition-colors">1600-8769</a>
+                                    <a href="tel:1600-8769" className="text-xl md:text-2xl font-display font-bold text-white hover:text-[#C5A059] transition-colors">1551-9396</a>
                                     <p className="text-xs md:text-sm text-gray-500 mt-1">평일 10:00 - 18:00 (주말/공휴일 휴무)</p>
                                 </div>
                             </div>
